@@ -10,6 +10,10 @@ namespace ConsoleApplication1
     {
         static void Main(string[] args)
         {
+            Console.Write("Welcome to the llama creator! Please enter your llama's name: ");
+            Llama myLlama = new Llama(Console.ReadLine());
+            myLlama.PrintName();
+            Console.ReadLine();
         }
     }
 }
